@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>TechnoStore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  float: top;
+  background: black;
+}
+h1, h2, p, a {
+  font-family: 'Roboto Mono', monospace;
+  color: #00ff00;
+}
+#nav {
+  overflow: hidden;
+  background-color: black;
+}
+a {
+  color: #00ff00;
+  text-align: center;
+  padding: 14px 16px;
+  line-height: 20px;
+  height: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.5s ease-out;
+}
+#nav a {
+  float: left;
+}
+a:hover {
+  background-color: #4488ff;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+a.home {
+  background-color: #00aa66;
+  color: white;
+}
+#header {
+  text-align: center;
+}
+.title {
+  color: black;
+}
+#title_container {
+  padding: 80px;
+  width: 100%;
+  height: 200px;
+  background-image: url("background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#about {
+  text-align: center;
+}
+#download {
+  text-align: center;
+}
+#download h1, h2, p, a {
+  color: #4488ff;
+}
+#desc {
+  color: #00ff00;
+}
+.center {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ff0000;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<div id="nav">
+<a class="home" href="#">Scraft</a>
+<a href="#download">Download</a>
+<a href="#about">About</a>
+</div>
+<div id="title_container">
+<h1 class="title">Scraft</h1>
+<h2 class="title">A game by TechnoDot</h2>
+</div>
+</div>
+<div id="about">
+<h1>About</h1>
+<br>
+<p id="desc">I made this game for my project, Game Design and Development. I created my own method of making a successful game, and used it.<br>See my presentation for more details. I coded this website by myself with raw HTML and made my own theme. I hope you like it.<br>I hope you've enjoyed this production of Scraft by TechnoDot. Copyright (c) 2022 by TechnoDot. All rights reserved.</p>
+</div>
+<div id="download">
+<h1>Download</h1>
+<p>You don't really download the game, you play it on Scratch (unless you want a offline version or want to dig through the game code)</p>
+<br>
+<div class="center">
+<a href="Scraft.sb3">Download .sb3</a>
+<a href="project.json">Download .json</a>
+<a href="https://scratch.mit.edu/projects/740065995/fullscreen/">Open Game in Fullscreen</a>
+</div>
+</div>
+</body>
+</html>
